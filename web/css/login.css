@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18-nov-2023, 10:02:20
+    Author     : luisn
+*/
+
+
+
+
+
+main {
+    flex: 1;
+}
+  body {
+            background-image: url('../imagenes/fondo.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Asegura que el fondo ocupe al menos la altura completa de la ventana */
+            margin: 0; /* Elimina el margen predeterminado del cuerpo */
+            display: flex;
+            align-items: center; /* Centra verticalmente */
+            justify-content: center; /* Centra horizontalmente */
+            flex-direction: column;
+    min-height: 100vh;
+        }
+
+        /* Personaliza el estilo de la caja del formulario */
+        .login-box {
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente blanco */
+            padding: 20px;
+            border-radius: 10px;
+        }

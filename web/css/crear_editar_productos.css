@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 03-dic-2023, 9:39:05
+    Author     : luisn
+*/
+
+ body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+        background-image: url('../imagenes/fondo.png');
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+   form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    max-width: 1000px; /* Puedes ajustar el valor según tus preferencias */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#botones{
+   margin-top: 2%;
+}
+
+    h1 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+    .alert-danger {
+        margin-top: 20px;
+    }
+    
+    

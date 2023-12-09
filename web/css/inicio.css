@@ -1,0 +1,234 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10-nov-2023, 11:07:09
+    Author     : luisn
+*/
+
+
+
+ header{
+        height:50%;
+    }
+
+  body {
+   
+    background-image: url("./../imagenes/fondoMenu.png");
+   
+}
+
+footer {
+    width: 100%;
+    background-color: #162139;
+  
+}
+
+        
+        .navbar-nav .nav-link {
+            font-size: 18px; /* Ajusta el tamaño de la fuente según tus preferencias */
+            transition: color 0.3s, font-size 0.3s; /* Agrega transiciones para un efecto suave */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ff8c00; /* Cambia el color al pasar el ratón sobre el enlace */
+            font-size: 20px; /* Ajusta el tamaño de la fuente al pasar el ratón sobre el enlace */
+        }
+    
+    .colored-link {
+    background-color: #FCEBBE;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+        h3 {
+            margin-top: 40px;
+            font-size: 24px;
+        }
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid black;
+        }
+        
+        tr{
+            background-color: aliceblue;
+        }
+
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            color: coral;
+        }
+        div {
+            
+           
+        }
+        
+
+
+.banner {
+   align-content: center;
+    width: 70%;
+   
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center; /* Añade esta línea para centrar el texto */
+     width: 900px; /* Ancho deseado */
+    height: 300px; /* Alto deseado */
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+
+.banner:hover .overlay {
+    opacity: 1;
+}
+
+.banner-row {
+    display: flex;
+}
+
+.banner {
+    margin: 10px; /* Ajusta según sea necesario */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .map-container {
+            width: 50%;
+            float: left;
+        }
+
+        .calendar-container {
+            width: 50%;
+            float: right;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+         .overlay p {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;}
+         
+         /* Estilos para pantallas más grandes (desktop) */
+.banner-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%; /* Ajusta según sea necesario */
+}
+
+.banner {
+    position: relative;
+    width: 48%; /* Ajusta según sea necesario */
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px; /* Tamaño de fuente normal */
+    font-weight: normal;
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+    .banner-row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner {
+        width: 100%;
+        margin-bottom: 20px; /* Espaciado entre banners */
+    }
+
+    .overlay {
+        font-size: 16px; /* Tamaño de fuente reducido para dispositivos móviles */
+        font-weight: bold; /* Texto en negrita */
+    }
+}
+
+  /* Estilos específicos para el slider */
+        .slider-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            max-width: 1000px; /* Ajusta según sea necesario */
+            margin: 0 auto;
+        }
+
+        .slider-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slider-item {
+            flex: 0 0 auto;
+            box-sizing: border-box;
+        }
+
+        /* Flechas de navegación del slider */
+        .slider-prev,
+        .slider-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .slider-prev { left: 10px; }
+        .slider-next { right: 10px; }

@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 01-mar-2023, 16:59:10
+    Author     : luisn
+*/
+body {
+            background-image: url("./../imagenes/fondoMenu.png");
+            
+    
+            
+            
+        }
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #162139;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+        h3 {
+            margin-top: 40px;
+            font-size: 24px;
+        }
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid black;
+        }
+        
+        tr{
+            background-color: aliceblue;
+        }
+
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            color: coral;
+        }
+        div {
+            text-align: right;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+.navbar-nav .nav-link {
+            font-size: 18px; /* Ajusta el tamaño de la fuente según tus preferencias */
+            transition: color 0.3s, font-size 0.3s; /* Agrega transiciones para un efecto suave */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ff8c00; /* Cambia el color al pasar el ratón sobre el enlace */
+            font-size: 20px; /* Ajusta el tamaño de la fuente al pasar el ratón sobre el enlace */
+        }
+        
+        footer {
+            margin-bottom: 0px;
+        width: 100%;
+        background-color: #162139;
+    }
+    
+    header{
+        height:5%;
+    }
